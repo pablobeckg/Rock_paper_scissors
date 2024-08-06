@@ -13,7 +13,7 @@ interface IChoices {
 const Game = () => {
   const [myChoice, setMyChoice] = useState<string>("Let select a choice!");
   const [cpuChoice, setCpuChoice] = useState<string>("?");
-  const [result, setResult] = useState<string>("");
+  const [result, setResult] = useState<string>("?");
 
   const handleMyChoice = (choice: string) => {
     setMyChoice(choice);
@@ -43,7 +43,10 @@ const Game = () => {
       (myChoice === "Scissors" && cpuChoice === "Paper")
     ) {
       setResult("You Win");
-    } else {
+    } else if (cpuChoice === "?")  {
+      setResult("?")
+    }
+    else {
       setResult("CPU Wins");
     }
   };
@@ -55,7 +58,7 @@ const Game = () => {
   }, [myChoice, cpuChoice]);
 
   return (
-    <section>
+    <section className="wrapper">
       <div className="results">
         <h1>Your choice: {myChoice}</h1>
         <h1>CPU choice: {cpuChoice}</h1>

@@ -1,21 +1,34 @@
 button {
-    background-color: transparent;
-    border: none;
-}
-
-.results {
-    color: white;
+  background-color: transparent;
+  border: none;
 }
 
 .restart {
-    background-color: white;
-    border-radius: 10px;
-    padding: 0.5rem;
-    margin-top: 1rem;
-    font-size: 3rem;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
 }
 .buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 2rem 0;
+  max-width: 500px;
+}
+
+.buttons svg {
+  width: 30%;
+  height: auto;
+}
+
+.results > h1 {
+  margin-bottom: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }

@@ -3,4 +3,28 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+font-family: "Raleway";
+color: white;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("/fonts/Raleway-VariableFont_wght.ttf");
+}
+
+.title h1 {
+  font-size: 3rem;
+}
+
+.title h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+
