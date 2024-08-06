@@ -18,7 +18,7 @@ button {
 }
 
 .buttons svg {
-  width: 30%;
+  max-width: 50%;
   height: auto;
 }
 
