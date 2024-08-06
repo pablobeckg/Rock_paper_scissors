@@ -1,30 +1,36 @@
-# React + TypeScript + Vite
+# Rock Paper Scissors
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Rock Paper Scissors**, an interactive and fun web application. This project allows users to play the classic game of Rock Paper Scissors against a computer opponent.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
 
-## Expanding the ESLint configuration
+This Rock Paper Scissors web application is a simple yet engaging way to play the timeless game against a computer. The project demonstrates basic game logic, user interface design, and interaction handling.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Visit the live site: [Rock Paper Scissors](https://rockpaperscissorspablo.netlify.app/)
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Interactive Gameplay**: Play Rock Paper Scissors against the computer.
+- **Dynamic Results**: Immediate feedback on the outcome of each round (win, lose, or draw).
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies
+
+- **HTML5 & CSS3**: For structuring and styling the web pages.
+- **TypeScript / JavaScript**: For implementing game logic and interactivity.
+- **Netlify**: For deployment and hosting of the web application.
+
+## Installation
+
+If you want to run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/rockpaperscissors-pablo.git
+   cd rockpaperscissors-pablo
