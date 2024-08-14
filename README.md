@@ -1,5 +1,7 @@
 # Rock Paper Scissors
 
+<img width="886" alt="Rock, Paper, Scissors" src="https://github.com/user-attachments/assets/b37fe77a-5ea3-48ca-b42a-4f9af75a95b8">
+
 Welcome to **Rock Paper Scissors**, an interactive and fun web application. This project allows users to play the classic game of Rock Paper Scissors against a computer opponent.
 
 ## Table of Contents
